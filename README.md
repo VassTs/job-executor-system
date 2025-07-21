@@ -51,7 +51,7 @@ make quick
 # Terminal 1 (Server):
 cd jobExecutor-multithreaded
 make
-./bin/jobExecutorServer 2034 8 5                                    # [port] [buffer] [threads]
+./bin/jobExecutorServer 2034 8 5    # [port] [buffer] [threads]
 
 # Terminal 2 (Client):
 ./bin/jobCommander localhost 2034 setConcurrency 2 
